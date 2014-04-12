@@ -243,11 +243,7 @@ last_plot <- function(localFrame, colorScheme, regionsToShow){
   return(p)
 }
 
-##### SHINY SERVER #####
 
-# Create shiny server. Input comes from the UI input
-# controls, and the resulting output will be displayed on
-# the page.
 shinyServer(function(input, output) {
   
   cat("Press \"ESC\" to exit...\n")
