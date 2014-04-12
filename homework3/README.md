@@ -78,3 +78,4 @@ Some aesthetic choices I made are:
 - Formatted the variables measured in percentages. 
 - Added space between small multiple plots. 
 - Added 'Data' tab to show filtered dataset. 
+- Many additional subtle changes. 
