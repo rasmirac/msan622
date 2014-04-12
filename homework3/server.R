@@ -83,30 +83,7 @@ firstPlot <- function(localFrame, colorScheme, xAxis, yAxis) {
   
   # color specification
   regions <- levels(localFrame$Region)
-  if (colorScheme == "Pastel 1") {
-    my_palette <- brewer_pal(type = "qual", palette = 'Pastel1')(length(regions))
-  }
-  else if (colorScheme == "Accent") {
-    my_palette <- brewer_pal(type = "qual", palette = 'Accent')(length(regions))
-  }
-  else if (colorScheme == "Set 1") {
-    my_palette <- brewer_pal(type = "qual", palette = 'Set1')(length(regions))
-  }
-  else if (colorScheme == "Set 2") {
-    my_palette <- brewer_pal(type = "qual", palette = 'Set2')(length(regions))
-  }
-  else if (colorScheme == "Set 3") {
-    my_palette <- brewer_pal(type = "qual", palette = 'Set3')(length(regions))
-  }
-  else if (colorScheme == "Dark 2") {
-    my_palette <- brewer_pal(type = "qual", palette = 'Dark2')(length(regions))
-  }
-  else if (colorScheme == "Pastel 2") {
-    my_palette <- brewer_pal(type = "qual", palette = 'Pastel2')(length(regions))
-  }
-  else if (colorScheme == 'Default'){
-    return(p + scale_color_discrete(name = 'Region', limits = regions))
-  }
+  my_palette <- brewer_pal(type = "qual", palette = colorScheme)(length(regions))
   p <- p + scale_color_manual(values = my_palette, name = 'Region', limits = regions)
   
   return(p)
@@ -188,33 +165,10 @@ secondPlot <- function(localFrame, colorScheme, regionsToShow, show_labels, xAxi
   else{
     p <- p + scale_y_continuous(limits = c(minY, maxY))
   }
+  
   # coloring
   regions <- levels(localFrame$Region)
-  if (colorScheme == "Pastel 1") {
-    my_palette <- brewer_pal(type = "qual", palette = 'Pastel1')(length(regions))
-  }
-  else if (colorScheme == "Accent") {
-    my_palette <- brewer_pal(type = "qual", palette = 'Accent')(length(regions))
-  }
-  else if (colorScheme == "Set 1") {
-    my_palette <- brewer_pal(type = "qual", palette = 'Set1')(length(regions))
-  }
-  else if (colorScheme == "Set 2") {
-    my_palette <- brewer_pal(type = "qual", palette = 'Set2')(length(regions))
-  }
-  else if (colorScheme == "Set 3") {
-    my_palette <- brewer_pal(type = "qual", palette = 'Set3')(length(regions))
-  }
-  else if (colorScheme == "Dark 2") {
-    my_palette <- brewer_pal(type = "qual", palette = 'Dark2')(length(regions))
-  }
-  else if (colorScheme == "Pastel 2") {
-    my_palette <- brewer_pal(type = "qual", palette = 'Pastel2')(length(regions))
-  }
-  else if (colorScheme == 'Default'){
-    return(p + scale_color_discrete(name = 'Region', limits = all_regions))
-  }
-  
+  my_palette <- brewer_pal(type = "qual", palette = colorScheme)(length(regions))
   p <- p + scale_color_manual(values = my_palette, name = 'Region', limits = all_regions)
   
   return(p)
@@ -277,37 +231,14 @@ last_plot <- function(localFrame, colorScheme, regionsToShow){
   # Add labels to plot
   p <- p + annotate("text", x = lab_x, y = lab_y, label = lab_z, size = 3)
   
-  regions <- levels(localFrame$Region)
-  if (colorScheme == "Pastel 1") {
-    my_palette <- brewer_pal(type = "qual", palette = 'Pastel1')(length(regions))
-  }
-  else if (colorScheme == "Accent") {
-    my_palette <- brewer_pal(type = "qual", palette = 'Accent')(length(regions))
-  }
-  else if (colorScheme == "Set 1") {
-    my_palette <- brewer_pal(type = "qual", palette = 'Set1')(length(regions))
-  }
-  else if (colorScheme == "Set 2") {
-    my_palette <- brewer_pal(type = "qual", palette = 'Set2')(length(regions))
-  }
-  else if (colorScheme == "Set 3") {
-    my_palette <- brewer_pal(type = "qual", palette = 'Set3')(length(regions))
-  }
-  else if (colorScheme == "Dark 2") {
-    my_palette <- brewer_pal(type = "qual", palette = 'Dark2')(length(regions))
-  }
-  else if (colorScheme == "Pastel 2") {
-    my_palette <- brewer_pal(type = "qual", palette = 'Pastel2')(length(regions))
-  }
-  else if (colorScheme == 'Default'){
-    return(p + scale_color_discrete(name = 'Region', limits = all_regions))
-  }
+  regions <- levels(localFrame$Region) 
+  my_palette <- brewer_pal(type = "qual", palette = colorScheme)(length(regions))
   
   if (length(regionsToShow) != 0){
     my_palette[which(!(levels(localFrame$Region) %in% regionsToShow))] <- "gray85"
   }
   
-  p <- p + scale_color_manual(values = my_palette, name = 'Regions', limits = all_regions)
+  p <- p + scale_color_manual(values = my_palette, name = 'Region', limits = all_regions)
   
   return(p)
 }
@@ -323,25 +254,34 @@ shinyServer(function(input, output) {
   
   localFrame <- df
   
-# Output scatter plot.
-# Should update every time sort or color criteria changes.
+  # subsetting for data table 
+  my_data <- reactive({
+    if (length(input$regionsToShow) != 0){
+      localFrame <- localFrame[which(localFrame$Region %in% input$regionsToShow),]
+    }
+    if (nrow(localFrame) == 0){
+      return('Data is empty.')
+    }
+    return(localFrame)
+  })
+    
+    
+# Output scatter plot small multiples
 output$scatterPlot <- renderPlot(
 {
-  # Use our function to generate the plot.
   scatterPlot <- firstPlot(
     localFrame,
     input$colorScheme,
     input$xAxis, 
     input$yAxis
   )
-  # Output the plot
+  
   print(scatterPlot)
 }
 )
 
 output$bubblePlot <- renderPlot(
 {
-  # Use our function to generate the plot.
   bubblePlot <- secondPlot(
     localFrame, 
     input$colorScheme, 
@@ -351,23 +291,27 @@ output$bubblePlot <- renderPlot(
     input$yAxis, 
     input$size_var
   )
-  # Output the plot
+  
   print(bubblePlot)
 }
 )
 
 output$parrPlot <- renderPlot(
 {
-  # Use our function to generate the plot.
   parrPlot <- last_plot(
     localFrame, 
     input$colorScheme,
     input$regionsToShow
     
   )
-  # Output the plot
   print(parrPlot)
 }
 )
+
+output$table <- renderDataTable({
+  my_data()}, 
+  options = list(sPaginationType = "two_button",
+                 sScrollY = "400px",
+                 bScrollCollapse = 'true'))
 })
 

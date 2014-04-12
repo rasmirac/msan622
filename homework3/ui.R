@@ -63,16 +63,15 @@ shinyUI(
       selectInput(
         inputId = "colorScheme", 
         label = "Color Scheme:",
-        choices = c("Dark 2", 
+        choices = c("Dark 2" = 'Dark2', 
                     "Accent", 
-                    "Set 1", 
-                    "Set 2", 
-                    "Set 3", 
-                    "Pastel 1", 
-                    "Pastel 2")
+                    "Set 1" = 'Set1', 
+                    "Set 2" = 'Set2', 
+                    "Set 3" = 'Set3', 
+                    "Pastel 1" = 'Pastel1', 
+                    "Pastel 2" = 'Pastel2')
       ), width = 3, height = 8
     ),
-    
     # Setup main panel.
     mainPanel(
       # Create a tab panel.
@@ -80,7 +79,12 @@ shinyUI(
         # Add a tab for displaying the histogram.
         tabPanel("Bubble Plot", plotOutput("bubblePlot", height = 700, width = 900)), 
         tabPanel("Small Multiples Plot", plotOutput("scatterPlot", height = 650, width = 900)),
-        tabPanel("Parallel Coordinates Plot", plotOutput("parrPlot", height = 700, width = 1100))
+        tabPanel("Parallel Coordinates Plot", plotOutput("parrPlot", height = 700, width = 1100)), 
+        tabPanel('Data',
+                 br(),
+                 div(class = 'well well-sm',
+                     'Hey! Look! Here\'s the dataset used to create the plots -- it\'s filtered based on your specifications.'),
+                 dataTableOutput('table'))
       )
     )
   )
