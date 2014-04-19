@@ -1,5 +1,6 @@
 require(tm)        # corpus
 require(SnowballC) 
+library(reshape)
 
 get_text <- function(filename){
   text_source <- DirSource(

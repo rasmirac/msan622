@@ -13,6 +13,7 @@ The following packages must be installed before running this code:
 - `shiny`
 - `scales`
 - `tm`
+- `reshape`
 - `SnowballC`
 - `wordcloud`
 - `RColorBrewer`
