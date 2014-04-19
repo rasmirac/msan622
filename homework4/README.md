@@ -35,7 +35,6 @@ For this project, I used text from the following screenplays and novels: Fight C
 
 ![](barplot.png)
 
-This plot is just a simple plot of word frequencies by text and form of media. I chose this technique because it is a very clean and simple way of indicating how many words are in each document. I decided not to show a faceted bar plot because I wasn't able to order the bars consistently in both. It also makes it harder to read the x-axis labels. 
 
 I chose the color to be consistent with the other plots used in this Shiny App. I removed the vertical gridlines as they are unneccessary for bar plots. I also increased the text size of the plot title and axis labels. 
 
