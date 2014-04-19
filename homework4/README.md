@@ -1,4 +1,4 @@
-Homework [4]: Text
+Homework 4: Text
 ==============================
 
 | **Name**  | Rachel  |
