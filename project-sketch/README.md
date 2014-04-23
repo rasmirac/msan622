@@ -10,22 +10,22 @@ Project Sketch
 
 
 ## Planned Tools ##
-I will probably use R's Shiny and ggplot2 packages to implement my visualizations. Although I'd really like to use D3 for this, I unfortuantely don't know enough to do a great job on this project. I might look into some map visualization tools to implement some of my techniques -- I'm thinking of doing a simple choropleth. I might also try to implement some simple techniques (like hovering for a line plot) in D3. 
+I will probably use R's Shiny and ggplot2 packages to implement my visualizations. I might look into some map visualization tools to implement some of my techniques -- I'm thinking of doing a simple choropleth. I hope also to try to implement some simple techniques (like hovering for a line plot) in D3. 
 
 ## Planned Techniques ##
 
 - Line plot
 
-I'd defintely like to do some time series visualizations with this dataset. I think one useful visualization to implement would be a simple multi-line plot of food purchases over time with each line representing a food group. I'd add the interactivity of breaking these food groups out into more granualar groups -- for example, the line fats breaks down into margarine, butter, and oil. I'd also like to add the option of filtering by region. 
+I'd defintely like to do some time series visualizations with this dataset. I plan to implement a simple multi-line plot of food purchases over time with each line representing a separate food group. I'd add the interactivity of breaking these food groups out into more granualar groups -- for example, the line for fats breaks down into margarine, butter, and oil. I'd also like to add the option of filtering by region. 
 
 - Choropleth
 
-Because I have the option of breaking this data down into regional purchases, it could be interesting to have a map based heat map of purchases by region, by year. I'd like to add in a small bit of animation and allow the user to 'play' the years. This way we could see the change in purchase habits by consumers over the years. 
+Because I have the option of breaking this data down into regional purchases, it could be interesting to have a map based heat map of purchases by region and year. I'd like to add in a small bit of animation and allow the user to 'play' the years. This way we could see the change in purchase habits by consumers over the years. 
 
 
 - Parallel Coordinates Plot
 
-I think that this technique could be interesting since I have numeric data that might be related (does more meat consumption imply less vegetable consumption?). Again, I'd like to add in the option to see these relationships by year. I'd also like to allow the user to choose which variables to show in this plot. 
+I think that this technique could be interesting because I have numeric data that might be related (e.g. does more meat consumption imply less vegetable consumption?). Again, I'd like to add in the option to see these relationships by year. I'd also like to allow the user to choose which variables to show in this plot. 
 
 
 - Small multiples line plot
