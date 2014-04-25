@@ -1,4 +1,4 @@
-Homework 5: Temporal
+Homework 5: Time Series Visualizations
 ==============================
 
 | **Name**  | Rachel  |
