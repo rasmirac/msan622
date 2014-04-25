@@ -94,7 +94,7 @@ p <- ggplot(subset(multi_data, variable != 'Kilometers Traveled' & variable != '
     #group = variable, 
     color = variable
   )) +
-  facet_wrap(~variable, ncol = 2) +
+  facet_wrap(~variable, ncol = 2, scales = 'free_y') +
   geom_line(alpha = 0.8, size = .8) +
   scale_colour_brewer(palette = my_palette) + 
   coord_fixed(ratio = 2 / 1000) + 

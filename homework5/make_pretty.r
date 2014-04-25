@@ -27,7 +27,7 @@ scale_months <- function() {
 scale_deaths <- function() {
   return (
     scale_y_continuous(
-      name = "Deaths in Thousands",
+      name = "Deaths",
       # set nice limits and breaks
       limits = c(0, 4500),
       expand = c(0, 0),
