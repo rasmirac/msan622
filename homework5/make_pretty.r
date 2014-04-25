@@ -48,7 +48,7 @@ scale_prgn <- function() {
       colours = brewer_pal(
         type = "seq", 
         palette = 'RdPu')(9),
-      name = "Deaths",
+      name = "Total Deaths",
       limits = c(0, 4500),
       breaks = seq(0, 4500, 1000), 
       labels = function(x) {paste0(x / 1000, 'k')}
@@ -66,7 +66,7 @@ theme_heatmap <- function() {
         hjust = 0.5),
       axis.ticks = element_blank(),
       axis.title = element_blank(),
-      legend.title = element_blank(), 
+      #legend.title = element_blank(), 
       legend.direction = "horizontal",
       legend.position = "bottom",
       panel.background = element_blank()
