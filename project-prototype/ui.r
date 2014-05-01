@@ -2,7 +2,7 @@ library(shiny)
 
 shinyUI(
   pageWithSidebar(  
-    titlePanel("Comparing screenplays and novels"),
+    titlePanel("UK Household Food Purchases"),
     sidebarPanel(
       # Add a drop-down box for sort columns.
       selectInput(
