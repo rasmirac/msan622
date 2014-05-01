@@ -5,6 +5,12 @@ Project Prototype
 |----------:|:-------------|
 | **Email** | rasmith2@dons.usfca.edu |
 
+
+Use the following code to run this `shiny` app:
+
+- `library(shiny)`
+- `runGitHub("msan622", "rasmirac", subdir = "project-prototype")`
+
 ## Dataset ##
 
 My dataset contains average food purchases per household in the UK during the years 1974-2012. Along with common pantry items, the dataset also reports 'eating out' habits, and data by region.  
