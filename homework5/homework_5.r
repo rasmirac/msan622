@@ -54,11 +54,9 @@ heat_data <- subset(heat_data, variable == 'Total')
 
 my_heat_map <- ggplot(
   subset(heat_data, variable == "Total"), 
-  aes(x = year, y = month)
-) + geom_tile(
+  aes(x = year, y = month)) + geom_tile(
   aes(fill = as.numeric(value)), 
-  colour = "white"
-) + scale_prgn() + 
+  colour = "white") + scale_prgn() + 
   scale_months() + 
   scale_y_discrete(expand = c(0, 0)) + 
   theme_heatmap() + coord_fixed(ratio = 1) + 

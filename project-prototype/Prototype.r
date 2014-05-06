@@ -8,7 +8,7 @@ source('clean_data.R')
 scale_units <- function() {
   return (
     scale_y_continuous(
-      name = "Units, average per household",
+      name = "Units in Grams, average per person",
       # set nice limits and breaks
       limits = c(0, 3750),
       expand = c(0, 0),
@@ -24,8 +24,8 @@ scale_year <- function() {
     scale_x_date(
       name = "Year",
       # using 1980 will result in gap
-      limits = c(as.Date('1980', '%Y'), as.Date('2012', '%Y')),
-      breaks = seq(as.Date('1980', '%Y'),by='5 years', length=17),
+      limits = c(as.Date('1974', '%Y'), as.Date('2012', '%Y')),
+      breaks = seq(as.Date('1974', '%Y'),by='5 years', length=17),
       expand = c(0, 0), 
       labels = function(x) {as.numeric(format(x, '%Y'))}
     )
@@ -46,4 +46,3 @@ my_area_plot <- ggplot(molten_group, aes(x = as.Date(variable, '%Y'), y = as.num
   scale_year() + scale_units() + 
   scale_color_brewer(palette = 'Dark2', name = 'Food Group') + 
   ggtitle('UK Household Purchases by Food Group, 1980-2012')
-
