@@ -5,7 +5,6 @@ library(wordcloud)
 library(RColorBrewer)
 library(reshape)
 library(grid)
-library(GGally)
 
 
 source('clean_data.R')
@@ -211,6 +210,7 @@ smPlot <- function(localFrame, expandGroup) {
   
 }
 
+
 heatPlot <- function(localFrame, group) {  
   localFrame <- subset(localFrame, Food.Group == group)
   mini <- min(localFrame$value)
@@ -230,9 +230,9 @@ heatPlot <- function(localFrame, group) {
   return(my_heat_map)
 }
 
-areaPlot <- function() { 
+areaPlot <- function(localFrame, facet) { 
   
-  my_area_plot <- ggplot(subset(molten_group, as.Date(as.character(variable), '%Y') >= as.Date('1992', '%Y')), 
+  my_area_plot <- ggplot(subset(localFrame, as.Date(as.character(variable), '%Y') >= as.Date('1992', '%Y')), 
                          aes(x = as.Date(variable, '%Y'), 
                              y = as.numeric(gsub(",","", value)))) + 
     geom_area(
@@ -268,7 +268,7 @@ areaPlot <- function() {
       panel.grid.major = element_line(colour = 'gray90')) + 
     ggtitle('Food Purchases in UK, 1974 - 2012') + 
     theme(axis.text.x = element_text(size = 12), axis.text.y = element_text(size = 12))
-  
+  return(my_area_plot)
 }
 
 shinyServer(function(input, output) {
@@ -316,8 +316,9 @@ output$heatPlot <- renderPlot(
 
 output$areaPlot <- renderPlot(
 {
-  
+  localFrame <- molten_group
   areaPlot <- areaPlot(
+    localFrame
   )
   print(areaPlot)
 }
@@ -327,15 +328,3 @@ output$areaPlot <- renderPlot(
 })
 
 
-#if (input$regions == 'England'){
-#  localFrame <- molten_group_eng
-#}
-#lse if (input$regions == 'Northern Ireland'){
-# localFrame <- molten_group_ire
-#}
-#else if (input$regions == 'Wales'){
-#  localFrame <- molten_group_wal
-#}
-#else if (input$regions == 'Scotland'){
-#  localFrame <- molten_group_scot
-#}

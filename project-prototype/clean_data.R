@@ -8,7 +8,7 @@ get_data <- function(filename, minyear, ex){
     proto_data <- proto_data[, c(2:3, 6, 7:(ncol(proto_data)-5))] 
   }
   else{
-    proto_data <- proto_data[, c(2:3, 6, 7:(ncol(proto_data)-4))] 
+    proto_data <- proto_data[, c(2:3, 6, 7:(ncol(proto_data)-2))] 
   }
   proto_data[4:(ncol(proto_data))] <- apply(proto_data[4:(ncol(proto_data))], 2, function(x){as.numeric(gsub(",","", x))})
   
@@ -49,7 +49,7 @@ get_data <- function(filename, minyear, ex){
   return(proto_data)
 }
 
-all_data <- get_data('clean_data.csv', 1974, T)
+all_data <- get_data('data/clean_data.csv', 1974, T)
 
 subsetted <- all_data[which(all_data$Sub.Description == ' '), ]
 cat_data_all <- aggregate(. ~ Food.Group, data=subsetted[,4:ncol(subsetted)], FUN=sum, na.rm=TRUE, na.action = NULL)
@@ -57,7 +57,7 @@ molten <- melt(all_data, id = c('Description', 'Sub.Description', 'Units', 'Food
 molten_group <- melt(subset(cat_data_all, Food.Group != ''),id = c('Food.Group'))
 
 
-eng_data <- get_data('england_clean.csv', 2001, F)
+eng_data <- get_data('data/england_clean.csv', 2001, F)
 
 subsetted <- eng_data[which(eng_data$Sub.Description == ' '), ]
 cat_data <- aggregate(. ~ Food.Group, data=subsetted[,4:ncol(subsetted)], FUN=sum)
@@ -65,7 +65,7 @@ molten_eng <- melt(eng_data, id = c('Description', 'Sub.Description', 'Units', '
 molten_group_eng <- melt(subset(cat_data, Food.Group != ''),id = c('Food.Group'))
 
 
-ire_data <- get_data('ireland_clean.csv', 2001, F)
+ire_data <- get_data('data/ireland_clean.csv', 2001, F)
 
 subsetted <- ire_data[which(ire_data$Sub.Description == ' '), ]
 cat_data <- aggregate(. ~ Food.Group, data=subsetted[,4:ncol(subsetted)], FUN=sum)
@@ -73,14 +73,14 @@ molten_ire <- melt(ire_data, id = c('Description', 'Sub.Description', 'Units', '
 molten_group_ire <- melt(subset(cat_data, Food.Group != ''),id = c('Food.Group'))
 
 
-wal_data <- get_data('wales_clean.csv', 2001, F)
+wal_data <- get_data('data/wales_clean.csv', 2001, F)
 
 subsetted <- wal_data[which(wal_data$Sub.Description == ' '), ]
 cat_data <- aggregate(. ~ Food.Group, data=subsetted[,4:ncol(subsetted)], FUN=sum)
 molten_wal <- melt(wal_data, id = c('Description', 'Sub.Description', 'Units', 'Food.Group'))
 molten_group_wal <- melt(subset(cat_data, Food.Group != ''),id = c('Food.Group'))
 
-scot_data <- get_data('scotland_clean.csv', 2001, F)
+scot_data <- get_data('data/scotland_clean.csv', 2001, F)
 
 subsetted <- scot_data[which(scot_data$Sub.Description == ' '), ]
 cat_data <- aggregate(. ~ Food.Group, data=subsetted[,4:ncol(subsetted)], FUN=sum)

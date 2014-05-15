@@ -1,0 +1,317 @@
+Code,Description,Sub-Description,,,Units,2001-02,2002-03,2003-04,2004-05,2005-06,2006,2007,2008,2009,2010,2011,2012
+eo100,"Indian, Chinese or Thai food", ,,,g,23,28,26,18,23,25,18,22,21,33,27,19
+eo1001,"Indian, Chinese or Thai food",Indian,,,g,16,14,19,10,17,15,10,13,10,20,16,11
+eo100101,"Indian, Chinese or Thai food",Indian,,Meat or fish based curry with sauce,g,12,10,16,7,12,9,5,9,7,11,7,8
+eo100102,"Indian, Chinese or Thai food",Indian,,Meat or fish based curry without sauce,g,1,0,1,0,2,0,0,1,0,2,1,0
+eo100103,"Indian, Chinese or Thai food",Indian,,Vegetable or fruit based curry,g,1,1,1,0,2,1,2,0,0,0,0,1
+eo100104,"Indian, Chinese or Thai food",Indian,,Dhal and dhal dishes,g,0,0,0,0,0,0,0,0,0,0,0,0
+eo100105,"Indian, Chinese or Thai food",Indian,,Samosas,g,0,0,0,0,0,0,0,0,0,0,0,0
+eo100106,"Indian, Chinese or Thai food",Indian,,Other Indian dishes,g,0,0,0,0,0,0,0,0,0,0,1,0
+eo100107,"Indian, Chinese or Thai food",Indian,,Indian breads,g,1,1,1,0,2,1,1,2,1,0,2,0
+eo100108,"Indian, Chinese or Thai food",Indian,,Indian buffet or shared meal or unspecified indian meal,g,0,2,0,1,1,3,3,2,3,6,5,3
+eo1002,"Indian, Chinese or Thai food",Chinese,,,g,7,14,7,8,5,10,7,9,10,11,10,7
+eo100201,"Indian, Chinese or Thai food",Chinese,,Chinese or Thai meat or fish based dishes excluding curry,g,3,6,4,2,3,2,2,3,3,3,4,3
+eo100202,"Indian, Chinese or Thai food",Chinese,,Chop suey and fu yung dishes,g,0,0,0,0,0,1,0,0,1,0,0,0
+eo100203,"Indian, Chinese or Thai food",Chinese,,Chinese or Thai vegetable based main course dishes excluding curry,g,1,1,0,0,0,0,0,1,0,0,0,0
+eo100204,"Indian, Chinese or Thai food",Chinese,,Chinese or Thai curry,g,1,0,1,1,0,1,0,1,2,1,0,0
+eo100205,"Indian, Chinese or Thai food",Chinese,,Spring rolls,g,0,0,0,0,0,0,0,0,0,0,0,0
+eo100206,"Indian, Chinese or Thai food",Chinese,,Other Chinese or Thai dishes,g,2,1,0,0,0,0,0,0,0,1,0,0
+eo100207,"Indian, Chinese or Thai food",Chinese,,Chinese or Thai buffet or shared meal or unspecified Chinese or Thai meal,g,0,6,2,5,2,6,5,4,5,6,5,4
+eo1003,"Indian, Chinese or Thai food",All other ethnic meals,,,g,0,0,0,1,0,0,1,0,1,2,1,1
+eo110,Meat and meat products, ,,,g,113,99,112,104,114,93,73,67,78,84,78,70
+eo1101,Meat and meat products,Carcase meat,,,g,18,18,20,17,21,16,12,14,17,19,17,15
+eo110101,Meat and meat products,Carcase meat,,"Steak - without sauce e.g. braised, sirloin",g,5,5,6,6,6,4,3,5,3,5,3,4
+eo110102,Meat and meat products,Carcase meat,,Roast meat with sauce or gravy,g,5,7,5,5,9,5,4,4,8,8,7,6
+eo110103,Meat and meat products,Carcase meat,,Pork chops with sauce or gravy,g,0,0,0,1,0,0,1,0,0,0,1,0
+eo110104,Meat and meat products,Carcase meat,,Lamb chops with sauce or gravy,g,0,0,0,0,0,0,0,0,0,0,0,0
+eo110105,Meat and meat products,Carcase meat,,Spare ribs,g,0,1,0,0,0,0,0,0,0,0,1,0
+eo110106,Meat and meat products,Carcase meat,,Bacon,g,4,3,5,3,3,3,2,3,4,3,3,2
+eo110107,Meat and meat products,Carcase meat,,Gammon or ham,g,2,1,2,2,2,3,1,2,2,2,2,2
+eo110108,Meat and meat products,Carcase meat,,"All offal including liver, kidney, tongue",g,0,0,0,0,0,0,0,0,0,0,0,0
+eo1102,Meat and meat products,Poultry,,,g,16,13,15,13,19,17,12,15,14,16,18,12
+eo110201,Meat and meat products,Poultry,,Chicken or turkey with sauce or gravy,g,10,7,10,8,13,12,10,8,11,9,9,8
+eo110202,Meat and meat products,Poultry,,Chicken or turkey in breadcrumbs or batter,g,6,5,5,4,6,4,2,7,3,5,9,3
+eo110203,Meat and meat products,Poultry,,Duck with sauce or gravy,g,0,1,0,1,0,0,0,0,0,1,0,0
+eo110204,Meat and meat products,Poultry,,Game with sauce or gravy,g,0,0,0,0,0,0,0,0,0,0,0,0
+eo1103,Meat and meat products,Burgers,,,g,25,24,25,20,22,15,21,10,13,15,14,15
+eo110301,Meat and meat products,Burgers,,Small or single burgers,g,10,7,11,6,8,5,5,3,5,5,7,6
+eo110302,Meat and meat products,Burgers,,Large or double burgers,g,10,9,10,8,9,7,12,6,5,7,6,5
+eo110303,Meat and meat products,Burgers,,Chicken burger,g,6,7,4,6,5,3,4,1,2,3,1,3
+eo1104,Meat and meat products,Sausages and kebabs,,,g,19,16,25,20,18,18,10,11,19,12,13,12
+eo110401,Meat and meat products,Sausages and kebabs,,Kebabs - all types including chicken,g,3,4,6,5,4,5,3,2,6,2,1,2
+eo110402,Meat and meat products,Sausages and kebabs,,"Plain sausages e.g. beef, pork",g,13,8,13,10,11,10,4,8,11,7,9,6
+eo110403,Meat and meat products,Sausages and kebabs,,Other sausages,g,0,1,0,0,0,0,0,0,1,1,0,0
+eo110404,Meat and meat products,Sausages and kebabs,,Hot dogs and sausage sandwiches,g,3,3,6,5,3,3,3,1,1,2,2,4
+eo1105,Meat and meat products,Meat pies and sausage rolls,,,g,24,21,20,26,23,19,13,11,12,14,11,10
+eo110501,Meat and meat products,Meat pies and sausage rolls,,Meat pies (pastry topped) and pasties,g,21,18,18,23,20,15,10,10,10,10,8,8
+eo110502,Meat and meat products,Meat pies and sausage rolls,,Meat pies (potato topped e.g. shepherd's pie),g,1,1,1,1,1,1,1,1,0,2,1,0
+eo110503,Meat and meat products,Meat pies and sausage rolls,,Sausage roll (pastry),g,2,2,2,2,2,2,2,1,1,2,2,2
+eo1106,Meat and meat products,Casseroles,,,g,9,6,4,6,10,8,4,5,2,7,4,6
+eo110601,Meat and meat products,Casseroles,,"Meat and vegetable stews, casseroles or hotpots",g,1,1,1,1,1,0,0,0,1,0,1,1
+eo110602,Meat and meat products,Casseroles,,"Chicken or turkey stews, casseroles or hotpots",g,1,1,0,1,0,0,0,0,0,0,0,0
+eo110603,Meat and meat products,Casseroles,,"Meat lasagne, cannelloni, moussaka and other meat-based oven baked dishes",g,7,5,3,4,9,8,4,4,2,6,3,5
+eo1107,Meat and meat products,Pate,,,g,0,0,0,0,0,0,0,0,0,0,0,0
+eo1108,Meat and meat products,Other meat and meat products,,,g,1,1,2,2,1,1,1,1,1,2,2,1
+eo120,Fish and fish products, ,,,g,12,13,11,15,15,15,9,10,10,15,13,11
+eo1201,Fish and fish products,White fish,,,g,8,9,7,9,11,10,6,7,7,9,8,8
+eo120101,Fish and fish products,White fish,,"White fish - grilled, steamed, baked or boiled - without sauce",g,1,1,1,2,1,1,1,1,1,0,1,0
+eo120102,Fish and fish products,White fish,,White fish - fried (incl in batter/breadcrumbs) - without sauce,g,7,8,6,8,9,9,5,6,6,9,7,7
+eo1202,Fish and fish products,Fatty fish,,,g,1,0,1,2,0,0,0,1,0,1,1,1
+eo120201,Fish and fish products,Fatty fish,,"Trout, tuna and salmon only - fresh - without sauce or dressing",g,1,0,1,0,0,0,0,1,0,1,1,0
+eo120202,Fish and fish products,Fatty fish,,"Other fatty fish - without sauce or dressing e.g. herring, mackerel, sardines",g,0,0,0,1,0,0,0,0,0,0,0,0
+eo120301,Fish and fish products,"Shellfish - without sauce or dressing e.g. prawns, shrimps, oysters, crab",,,g,0,1,0,0,1,0,0,0,0,1,0,0
+eo120401,Fish and fish products,Kippers and other smoked fish e.g. smoked salmon,,,g,0,0,0,0,0,0,0,0,0,0,0,0
+eo120501,Fish and fish products,"Other fish products and unspecified 'fish' e.g. squid, sushi, crabsticks",,,g,0,1,0,0,0,0,0,0,0,1,0,1
+eo1206,Fish and fish products,Processed fish,,,g,2,2,2,3,3,3,2,2,2,3,4,1
+eo120601,Fish and fish products,Processed fish,,"Fish, processed, in breadcrumbs (fish fingers, fish cakes, scampi) - without sauce or dressing",g,2,1,1,2,2,3,1,1,1,2,2,1
+eo120602,Fish and fish products,Processed fish,,Fish burgers (in bun),g,0,0,0,0,0,0,0,0,0,0,0,0
+eo120603,Fish and fish products,Processed fish,,"Fish based pie or other dish e.g. paella, kedgeree, tuna pasta bake",g,0,1,1,1,1,1,1,1,1,1,2,0
+eo130,Cheese and egg dishes or pizza, ,,,g,19,19,31,19,22,20,16,22,21,15,15,17
+eo1301,Cheese and egg dishes or pizza,Cheese,,,g,2,3,4,2,3,3,2,2,2,1,1,1
+eo130101,Cheese and egg dishes or pizza,Cheese,,Cottage cheese including with pineapple,g,0,0,0,0,0,0,0,0,0,0,0,0
+eo130102,Cheese and egg dishes or pizza,Cheese,,"Soft, continental or processed cheese e.g. brie",g,0,0,0,0,0,0,0,0,0,0,0,0
+eo130103,Cheese and egg dishes or pizza,Cheese,,"Cheddar, blue or other hard cheese and unspecified 'cheese'",g,0,0,1,1,0,0,0,1,1,0,1,1
+eo130104,Cheese and egg dishes or pizza,Cheese,,Quiche and cheese pies or pasties,g,2,2,3,1,2,2,2,1,1,1,1,0
+eo130105,Cheese and egg dishes or pizza,Cheese,,"Other cheese dishes e.g. Welsh rarebit, cheese and biscuits",g,0,0,0,0,0,0,0,0,0,0,0,0
+eo1302,Cheese and egg dishes or pizza,Pizza,,,g,6,7,11,7,8,8,8,10,10,4,6,9
+eo130201,Cheese and egg dishes or pizza,Pizza,,"Pizza - cheese and tomato, vegetable or unspecified 'pizza'",g,4,6,9,6,7,6,6,8,5,3,6,8
+eo130202,Cheese and egg dishes or pizza,Pizza,,"Pizza - meat, fish or poultry",g,2,1,1,1,1,2,2,2,5,1,0,1
+eo1303,Cheese and egg dishes or pizza,Eggs,,,g,11,9,16,9,11,10,6,10,9,9,8,7
+eo130301,Cheese and egg dishes or pizza,Eggs,,Eggs - boiled or poached,g,0,0,0,0,0,0,0,0,0,0,0,0
+eo130302,Cheese and egg dishes or pizza,Eggs,,"Eggs - scrambled, fried, omelettes or unspecified 'egg'",g,11,9,16,9,11,10,6,10,9,9,8,7
+eo130303,Cheese and egg dishes or pizza,Eggs,,Other egg dishes e.g. egg mayonnaise,g,0,0,0,0,0,0,0,0,0,0,0,0
+eo140,Fresh and processed potatoes, ,,,g,99,89,98,94,99,81,65,64,66,78,72,66
+eo140101,Fresh and processed potatoes,Chips and french fries - from fast food outlet e.g. McDonalds,,,g,14,10,10,12,8,8,10,7,7,8,11,10
+eo140102,Fresh and processed potatoes,Chips - served with meal e.g. from restaurant or chip shop,,,g,56,52,58,56,60,50,36,35,35,46,44,36
+eo140103,Fresh and processed potatoes,Potatoes - boiled or unspecified 'potato',,,g,8,7,9,8,10,5,4,4,5,4,4,7
+eo140104,Fresh and processed potatoes,Potatoes - mashed,,,g,3,1,3,2,2,2,1,1,1,2,1,2
+eo140105,Fresh and processed potatoes,Potatoes - roast,,,g,6,8,6,6,10,7,7,7,9,10,6,6
+eo140106,Fresh and processed potatoes,"Sautéed potatoes, potato croquettes, hash browns etc.",,,g,2,2,2,1,1,2,1,2,2,2,1,2
+eo140107,Fresh and processed potatoes,Baked or jacket potatoes - without filling,,,g,8,8,7,7,7,7,5,6,5,5,4,4
+eo140108,Fresh and processed potatoes,"Other potato dishes (e.g. wedges, potato salad) including unspecified 'potato dish'",,,g,1,2,2,1,1,0,0,2,1,1,0,1
+eo150,Vegetables, ,,,g,37,35,35,32,37,30,25,32,35,30,29,28
+eo1501,Vegetables,Green vegetables,,,g,5,5,5,4,3,2,2,2,2,4,1,3
+eo150101,Vegetables,Green vegetables,,Lettuce and cress,g,0,0,0,0,0,0,0,0,0,0,0,0
+eo150102,Vegetables,Green vegetables,,"Other green vegetables e.g. spinach, cabbage, sprouts",g,5,5,4,4,3,1,2,2,2,4,1,3
+eo1502,Vegetables,Other fresh vegetables,,,g,17,14,15,16,15,13,9,14,17,14,14,10
+eo150201,Vegetables,Other fresh vegetables,,Peppers - raw or cooked,g,0,0,0,0,0,0,0,0,0,0,0,0
+eo150202,Vegetables,Other fresh vegetables,,"Courgettes, marrow, aubergine, pumpkin, plantain, cucumbers",g,0,0,0,0,0,0,0,0,0,0,0,0
+eo150203,Vegetables,Other fresh vegetables,,Peas and sweetcorn,g,5,6,5,6,5,4,3,5,4,4,3,3
+eo150204,Vegetables,Other fresh vegetables,,Baked beans and other beans (not green beans) and pulses,g,9,7,8,8,8,7,5,7,10,8,9,5
+eo150205,Vegetables,Other fresh vegetables,,Tomato - fresh or raw,g,1,0,0,0,0,0,0,0,1,0,0,0
+eo150206,Vegetables,Other fresh vegetables,,Tomato - cooked or processed,g,1,1,2,2,2,2,1,2,2,1,2,2
+eo1503,Vegetables,Root vegetables,,,g,4,4,3,3,4,2,2,3,3,4,1,2
+eo150301,Vegetables,Root vegetables,,Carrots,g,3,3,3,2,2,2,1,2,2,3,1,1
+eo150302,Vegetables,Root vegetables,,"Onions - raw, cooked or unspecified 'onions'",g,0,0,0,0,0,0,0,0,0,0,0,0
+eo150303,Vegetables,Root vegetables,,Onions - fried,g,0,0,0,0,0,0,0,0,0,0,0,0
+eo150304,Vegetables,Root vegetables,,"Other root vegetables or tubers e.g. turnip, parsnip, radish, beetroot",g,0,0,0,1,1,1,0,0,1,0,0,0
+eo1504,Vegetables,Mushrooms,,,g,1,1,1,1,1,1,1,1,1,1,1,1
+eo1505,Vegetables,Other vegetables and vegetable products,,,g,5,5,5,5,9,6,6,6,6,6,5,7
+eo150501,Vegetables,Other vegetables and vegetable products,,Mixed vegetables or unspecified 'vegetable',g,4,4,4,4,8,6,5,4,5,5,5,6
+eo150502,Vegetables,Other vegetables and vegetable products,,"Other vegetables e.g. artichoke, asparagus",g,0,0,0,0,0,0,0,0,0,0,0,0
+eo150503,Vegetables,Other vegetables and vegetable products,,Vegetables in batter or breadcrumbs and deep fried vegetables e.g. onion rings,g,1,1,1,1,0,0,1,2,0,1,0,1
+eo150504,Vegetables,Other vegetables and vegetable products,,Onion and other vegetable bhajis and pakora,g,0,0,0,0,0,0,0,0,0,0,0,0
+eo1506,Vegetables,Vegetarian dishes,,,g,4,7,6,3,5,6,6,5,6,2,6,5
+eo150601,Vegetables,Vegetarian dishes,,"Veggie burger, bean burger, veggie sausage, nut roast",g,0,0,1,0,0,0,1,1,0,0,0,0
+eo150602,Vegetables,Vegetarian dishes,,"Vegetable lasagne, vegetable cannelloni, vegetable moussaka and other oven baked vegetable based dishes",g,2,5,5,2,3,4,1,2,3,1,4,1
+eo150603,Vegetables,Vegetarian dishes,,Stuffed vegetables (e.g. stuffed pepper) and vegetable based starter,g,0,0,0,0,1,0,0,0,0,0,0,0
+eo150604,Vegetables,Vegetarian dishes,,Vegetable based stews and casseroles and vegetable based pies,g,2,1,1,1,1,1,4,2,2,1,1,3
+eo160,Salads, ,,,g,12,15,11,17,21,15,11,11,10,13,10,10
+eo1601,Salads,Green salads without dressing,,,g,8,10,7,9,12,8,6,5,6,7,6,5
+eo160101,Salads,Green salads without dressing,,"Mixed salad, main course  - without dressing",g,2,1,0,0,1,0,0,0,1,0,0,0
+eo160102,Salads,Green salads without dressing,,"Mixed salad, side dish - without dressing - including unspecified 'salad'",g,6,8,7,8,11,7,6,5,5,6,6,5
+eo160103,Salads,Green salads without dressing,,Green salad - without dressing,g,1,1,0,1,0,0,0,0,0,0,0,0
+eo1602,Salads,Green salads with dressing,,,g,1,0,0,0,1,1,0,1,1,1,1,0
+eo160201,Salads,Green salads with dressing,,Vegetable or fruit and nut salad - with dressing,g,0,0,0,0,0,0,0,0,0,0,0,0
+eo160202,Salads,Green salads with dressing,,"Pasta, rice, mixed bean or cereal-based salads - with dressing",g,1,0,0,0,1,1,0,1,1,1,1,0
+eo1603,Salads,Meat or fish salads,,,g,3,3,3,6,6,6,3,3,1,3,2,4
+eo160301,Salads,Meat or fish salads,,"Meat salad e.g. beef, lamb salads",g,1,1,1,1,2,2,1,1,0,1,0,1
+eo160302,Salads,Meat or fish salads,,Chicken or turkey salad,g,1,1,2,2,2,1,1,0,1,1,1,2
+eo160303,Salads,Meat or fish salads,,"Fish salad e.g. tuna, salmon salads",g,2,2,1,2,2,3,1,1,0,1,1,1
+eo1604,Salads,Cheese or egg salads,,,g,0,1,0,1,1,0,1,2,1,1,1,1
+eo160401,Salads,Cheese or egg salads,,Cheese salad including ploughmans,g,0,1,0,0,1,0,1,2,1,1,1,1
+eo160402,Salads,Cheese or egg salads,,Egg salad,g,0,0,0,0,0,0,0,0,0,0,0,0
+eo160501,Salads,"Other salads e.g. Greek, Florida, Russian",,,g,0,0,0,0,0,0,0,0,0,0,0,0
+eo160601,Salads,Salad buffet or buffet meal where items not specified,,,g,0,0,0,1,0,0,0,0,1,2,1,0
+eo170,"Rice, pasta or noodles", ,,,g,12,10,14,11,12,13,9,13,9,13,11,11
+eo170101,"Rice, pasta or noodles",Fried rice and risotto,,,g,3,2,1,1,1,1,1,2,2,1,2,1
+eo170102,"Rice, pasta or noodles","All cooked rice exluding fried rice e.g. boiled, pilau, savoury",,,g,6,5,8,5,9,8,3,5,3,6,4,5
+eo170103,"Rice, pasta or noodles",Pasta - not filled and plain noodles (including pot noodle) - without sauce,,,g,3,3,5,5,2,3,4,5,3,5,5,5
+eo170104,"Rice, pasta or noodles","Pasta - filled e.g. ravioli, tortellini - without sauce",,,g,1,0,1,1,0,1,1,0,1,1,0,0
+eo170105,"Rice, pasta or noodles","Noodles with meat, vegetables etc.",,,g,0,0,0,0,0,0,0,0,0,0,0,0
+eo180,Soups, ,,,g,5,8,5,6,6,9,6,7,5,7,4,2
+eo180101,Soups,Meat & fish soups,,,g,0,1,0,1,0,0,0,1,0,1,0,0
+eo180102,Soups,Vegetable based soups,,,g,2,4,2,2,3,6,2,2,3,3,2,1
+eo180103,Soups,"Chinese soups, consommé (meat, fish or veg)",,,g,0,0,0,0,0,0,0,1,0,0,0,0
+eo180104,Soups,Other soups including unspecified 'soup',,,g,3,2,3,4,3,3,3,4,1,2,2,1
+eo190,Breakfast cereals, ,,,g,0,0,0,0,1,0,0,0,0,0,0,0
+eo190101,Breakfast cereals,Muesli and oat crunch cereals,,,g,0,0,0,0,0,0,0,0,0,0,0,0
+eo190102,Breakfast cereals,"Other high fibre breakfast cereals e.g. Allbran, Weetabix",,,g,0,0,0,0,0,0,0,0,0,0,0,0
+eo190103,Breakfast cereals,"Sweetened breakfast cereals e.g. Frosties, Sugar Puffs",,,g,0,0,0,0,0,0,0,0,0,0,0,0
+eo190104,Breakfast cereals,"Hot breakfast cereals e.g. porridge, Ready Brek",,,g,0,0,0,0,0,0,0,0,0,0,0,0
+eo190105,Breakfast cereals,"Other breakfast cereals and unspecified 'cereal' e.g. Cornflakes, Rice Krispies, Special K",,,g,0,0,0,0,0,0,0,0,0,0,0,0
+eo200,Fresh and processed fruit, ,,,g,6,8,6,7,5,10,12,8,9,6,5,11
+eo2001,Fresh and processed fruit,Fresh fruit,,,g,5,8,5,7,5,10,12,8,9,6,5,11
+eo200101,Fresh and processed fruit,Fresh fruit,,"All citrus fruit, fresh e.g. orange, grapefruit",g,0,1,0,0,0,2,1,0,1,0,0,1
+eo200102,Fresh and processed fruit,Fresh fruit,,"Banana, fresh",g,2,1,1,2,1,2,3,1,1,2,1,2
+eo200103,Fresh and processed fruit,Fresh fruit,,"Apples, fresh",g,1,2,1,1,1,3,3,2,1,1,1,1
+eo200104,Fresh and processed fruit,Fresh fruit,,"Pears, fresh",g,0,0,0,0,0,0,0,0,0,0,0,0
+eo200105,Fresh and processed fruit,Fresh fruit,,"Stone fruit, fresh e.g. apricot, plum, peach, cherry, avocado",g,0,1,0,0,0,0,0,0,1,0,0,1
+eo200106,Fresh and processed fruit,Fresh fruit,,"Grapes, fresh",g,0,0,0,0,0,0,1,0,0,0,0,1
+eo200107,Fresh and processed fruit,Fresh fruit,,"Soft fruit or berries, fresh e.g. strawberries, blackberries - without cream or ice cream",g,0,0,0,0,0,0,0,0,0,0,0,0
+eo200108,Fresh and processed fruit,Fresh fruit,,"Melon, fresh",g,0,0,0,0,1,0,1,0,1,0,0,0
+eo200109,Fresh and processed fruit,Fresh fruit,,"Pineapple, fresh",g,1,0,1,0,1,1,0,0,0,0,0,0
+eo200110,Fresh and processed fruit,Fresh fruit,,Fresh fruit salad - without cream or ice cream,g,1,1,1,0,1,2,2,3,1,1,1,2
+eo200111,Fresh and processed fruit,Fresh fruit,,"Other fresh fruit (kiwi, passion) and unspecified 'fruit'",g,0,1,0,0,0,0,0,0,1,0,0,0
+eo200112,Fresh and processed fruit,Fresh fruit,,Free school fruit,g,0,0,1,1,0,1,1,1,1,0,2,4
+eo200201,Fresh and processed fruit,"Dried fruit e.g. sultanas, raisins",,,g,0,0,0,0,0,0,0,0,0,0,0,0
+eo200301,Fresh and processed fruit,"Tinned, stewed, baked or processed fruit - without cream or ice cream",,,g,0,0,0,0,0,0,0,0,0,0,0,0
+eo210,Yoghurt and fromage frais, ,,,g,3,1,2,4,4,4,3,1,1,0,1,0
+eo220,Bread, ,,,g,7,8,9,7,7,6,7,8,9,8,5,5
+eo220101,Bread,"White bread, with or without butter or margarine (toasted or untoasted)",,,g,4,4,5,4,4,4,3,2,3,4,1,0
+eo220102,Bread,"Brown or wholemeal bread, with or without butter or margarine (toasted or untoasted)",,,g,0,1,1,0,0,0,1,0,0,1,1,0
+eo220103,Bread,"White rolls, baguettes etc. without butter or margerine (or butter or margerine not specified)",,,g,1,1,1,1,1,1,2,2,2,1,0,0
+eo220104,Bread,"Brown or wholemeal rolls, baguettes etc. without butter or margerine (or butter or margerine not specified)",,,g,0,0,0,0,0,0,1,0,0,0,0,0
+eo220105,Bread,Garlic bread,,,g,0,1,1,1,0,0,1,1,1,0,0,1
+eo220106,Bread,Croissant,,,g,0,0,0,0,0,0,0,0,0,0,0,0
+eo220107,Bread,"Continental breads e.g. pitta, ciabatta, focaccio",,,g,0,0,0,0,0,0,0,0,1,0,0,0
+eo220108,Bread,"Muffins, crumpets",,,g,0,0,0,0,0,0,0,0,2,0,0,0
+eo220109,Bread,"Fried bread, including croutons",,,g,0,1,1,1,1,1,0,1,1,0,0,0
+eo220110,Bread,"Other bread, rolls, toast, unspecified 'bread' etc.",,,g,0,0,0,0,0,0,0,0,0,0,2,3
+eo230,Sandwiches, ,,,g,71,59,71,71,64,81,76,67,57,45,55,57
+eo2301,Sandwiches,Meat or fish based sandwiches,,,g,46,37,49,46,44,54,45,40,30,27,35,34
+eo230101,Sandwiches,Meat or fish based sandwiches,,Meat based sandwich on white bread or roll,g,20,16,19,15,17,19,13,15,10,12,9,3
+eo230102,Sandwiches,Meat or fish based sandwiches,,Meat based sandwich on brown bread or roll,g,1,2,2,3,4,4,3,5,4,2,2,1
+eo230103,Sandwiches,Meat or fish based sandwiches,,Meat based sandwich bread not specified,g,0,0,1,0,0,0,1,0,1,1,6,8
+eo230104,Sandwiches,Meat or fish based sandwiches,,Chicken or turkey based sandwich on white bread or roll,g,12,9,12,14,9,16,17,8,9,7,4,4
+eo230105,Sandwiches,Meat or fish based sandwiches,,Chicken or turkey based sandwich on brown bread or roll,g,2,3,1,3,4,3,3,3,1,1,2,0
+eo230106,Sandwiches,Meat or fish based sandwiches,,Chicken or turkey based sandwich bread not specified,g,0,0,0,0,0,0,0,0,0,0,5,9
+eo230107,Sandwiches,Meat or fish based sandwiches,,Bacon and egg based sandwich on white bread or roll inc Bacon and Egg McMuffin,g,2,1,3,3,3,2,1,2,1,1,1,2
+eo230108,Sandwiches,Meat or fish based sandwiches,,Bacon and egg based sandwich on brown bread or roll,g,0,0,0,0,0,0,1,0,0,0,0,0
+eo230109,Sandwiches,Meat or fish based sandwiches,,Bacon and egg based sandwich bread not specified,g,0,0,0,0,0,0,0,0,0,0,2,0
+eo230110,Sandwiches,Meat or fish based sandwiches,,Fish based sandwich on white bread or roll,g,6,4,6,6,4,7,6,3,4,2,2,1
+eo230111,Sandwiches,Meat or fish based sandwiches,,Fish based sandwich on brown bread or roll,g,2,2,3,3,2,3,2,3,1,1,2,1
+eo230112,Sandwiches,Meat or fish based sandwiches,,Fish based sandwich bread not specified,g,0,0,0,0,0,0,0,0,0,0,1,4
+eo2302,Sandwiches,Other savoury or sweet sandwiches,,,g,26,21,22,25,20,27,31,27,27,18,19,22
+eo230201,Sandwiches,Other savoury or sweet sandwiches,,Cheese based sandwich on white bread or roll,g,11,8,9,4,8,6,7,5,6,4,3,1
+eo230202,Sandwiches,Other savoury or sweet sandwiches,,Cheese based sandwich on brown bread or roll,g,2,2,1,2,1,1,6,2,2,1,2,1
+eo230203,Sandwiches,Other savoury or sweet sandwiches,,Cheese based sandwich bread not specified,g,0,0,1,0,0,0,0,0,0,0,3,5
+eo230204,Sandwiches,Other savoury or sweet sandwiches,,Egg based sandwich on white bread or roll including Egg McMuffin,g,6,3,2,2,1,3,3,2,1,1,1,0
+eo230205,Sandwiches,Other savoury or sweet sandwiches,,Egg based sandwich on brown bread or roll,g,1,0,1,1,1,1,1,1,1,0,1,0
+eo230206,Sandwiches,Other savoury or sweet sandwiches,,Egg based sandwich bread not specified,g,0,0,0,0,0,0,0,0,0,0,0,1
+eo230207,Sandwiches,Other savoury or sweet sandwiches,,Vegetarian based sandwich on white bread or roll,g,3,2,3,4,2,2,1,2,0,0,0,0
+eo230208,Sandwiches,Other savoury or sweet sandwiches,,Vegetarian based sandwich on brown bread or roll,g,0,2,0,1,0,1,0,0,0,0,0,0
+eo230209,Sandwiches,Other savoury or sweet sandwiches,,Vegetarian based sandwich bread not specified,g,0,0,0,0,0,0,0,0,0,0,1,1
+eo230210,Sandwiches,Other savoury or sweet sandwiches,,Sweet-filled sandwich,g,0,0,0,0,0,0,0,0,0,0,0,0
+eo230211,Sandwiches,Other savoury or sweet sandwiches,,Unspecified sandwiches or rolls,g,2,4,6,11,6,13,12,15,17,10,8,12
+eo240,Other food products, ,,,g,125,123,127,134,122,137,110,107,113,128,97,59
+eo2401,Other food products,Sauces,,,g,5,5,6,8,9,10,6,6,6,6,6,8
+eo240101,Other food products,Sauces,,"Cheese or cream based sauce e.g. carbonara, cauliflower cheese",g,0,0,0,0,0,0,0,0,0,0,0,1
+eo240102,Other food products,Sauces,,"Meat-based sauce e.g. bolognese, chilli con carne",g,2,1,2,4,5,7,3,3,2,3,3,4
+eo240103,Other food products,Sauces,,Fish or seafood based sauce,g,0,1,0,0,0,0,0,0,0,0,0,0
+eo240104,Other food products,Sauces,,Tomato based sauce containing vegetables including ratatouille,g,0,0,0,1,1,0,1,1,1,1,0,1
+eo240105,Other food products,Sauces,,Other savoury sauce or unspecified 'sauce',g,2,2,2,2,2,2,1,2,2,2,2,2
+eo240106,Other food products,Sauces,,"Sweet sauce e.g. syrup, treacle, chocolate sauce",g,0,0,0,0,0,0,0,0,0,0,0,0
+eo240107,Other food products,Sauces,,Fruit or vegetable based condiments,g,0,0,0,0,0,0,0,0,0,0,0,0
+eo240108,Other food products,Sauces,,Other condiments or sauces,g,0,0,0,0,0,0,0,0,0,0,0,0
+eo2402,Other food products,Dressings,,,g,2,1,1,1,1,1,2,1,1,1,1,1
+eo240201,Other food products,Dressings,,Salad dressings and dips,g,0,0,0,0,0,0,0,0,0,0,0,0
+eo240202,Other food products,Dressings,,Mayonnaise,g,1,1,1,1,0,1,1,0,0,0,0,0
+eo240203,Other food products,Dressings,,Coleslaw,g,1,0,0,0,0,0,0,1,0,0,0,0
+eo2403,Other food products,Fillings,,,g,2,3,3,2,1,2,1,2,2,1,1,1
+eo240301,Other food products,Fillings,,Fruit filling e.g. peaches for pancakes,g,0,0,0,0,0,0,0,0,0,0,0,0
+eo240302,Other food products,Fillings,,Vegetable filling,g,1,0,1,0,0,0,0,1,1,0,0,0
+eo240303,Other food products,Fillings,,"Cheese filling including cheddar cheese, cottage cheese",g,1,1,0,0,0,0,1,1,1,1,1,0
+eo240304,Other food products,Fillings,,Fish based filling e.g. tuna mayonnaise,g,0,2,1,1,1,1,0,1,0,0,0,0
+eo2404,Other food products,"Fats, preserves, sugar and custard",,,g,2,2,2,2,1,1,1,1,2,1,1,1
+eo240401,Other food products,"Fats, preserves, sugar and custard",,Butter and margarine,g,0,0,0,0,0,0,0,0,0,0,0,0
+eo240402,Other food products,"Fats, preserves, sugar and custard",,"Jam, marmalade and honey",g,0,0,0,0,0,0,0,0,0,0,0,0
+eo240403,Other food products,"Fats, preserves, sugar and custard",,"Cream - single, double, sour etc.",g,1,0,0,1,0,0,0,0,0,0,0,0
+eo240404,Other food products,"Fats, preserves, sugar and custard",,Custard,g,1,1,2,1,0,1,0,1,1,1,0,1
+eo240405,Other food products,"Fats, preserves, sugar and custard",,"Sugar (as an addition to tea, coffee etc.)",g,0.26,0.18,0.02,0.01,0.01,0.00,0.28,0.09,0.01,0.05,0.16,0.03
+eo240501,Other food products,Commercial baby food in a jar or can,,,g,0,0,0,0,0,0,0,0,0,0,0,0
+eo2406,Other food products,Yorkshire puddings and dumplings,,,g,1,1,1,1,2,1,1,1,1,3,2,3
+eo240701,Other food products,"Unspecified meal e.g. 'meal', 'school meal' or 'meal at work'",,,g,114,110,113,120,109,120,99,95,101,116,86,45
+eo250,Beverages, ,,,ml,137,100,148,132,98,129,115,107,100,111,98,86
+eo250101,Beverages,"Coffee, black including espresso",,,ml,8,1,2,1,4,2,2,2,4,5,2,8
+eo250102,Beverages,"Coffee, white including cappuccino, latte",,,ml,35,16,21,23,20,28,24,25,22,34,33,25
+eo250103,Beverages,"Coffee, black or white not specified",,,ml,48,38,66,60,36,58,52,41,40,32,35,29
+eo250104,Beverages,"Tea, white (including black or white not specified)",,,ml,39,38,50,41,30,31,31,34,24,34,23,20
+eo250105,Beverages,"Tea, black including Chinese tea, herbal tea, fruit tea",,,ml,1,1,1,1,0,0,0,0,1,1,0,0
+eo250106,Beverages,"Hot chocolate or cocoa, with milk or water",,,ml,5,7,10,6,6,10,6,5,8,6,5,4
+eo260,Soft drinks including milk, ,,,ml,402,384,425,369,359,375,304,264,260,246,311,233
+eo2602,Soft drinks including milk,Soft drinks,,,ml,363,345,376,327,337,357,277,240,235,227,276,206
+eo260201,Soft drinks including milk,Soft drinks,,Mineral water,ml,42,46,35,48,65,62,57,40,40,41,32,27
+eo260202,Soft drinks including milk,Soft drinks,,Soft drink (incl carbonates and still) - low calorie,ml,63,47,69,50,49,58,27,41,54,44,64,37
+eo260203,Soft drinks including milk,Soft drinks,,Soft drink (incl carbonates & still) - not low calorie (inc drinks where calorie content unspecified),ml,243,239,261,218,214,224,186,148,131,134,172,128
+eo260204,Soft drinks including milk,Soft drinks,,Pure fruit juices,ml,15,12,10,12,9,13,7,11,10,9,7,12
+eo260205,Soft drinks including milk,Soft drinks,,"Vegetable juices e.g. tomato juice, carrot juice",ml,0,0,0,0,0,0,0,0,0,0,0,0
+eo260206,Soft drinks including milk,Soft drinks,,Soft drink where pure juice or juice drink not specified,ml,0,0,0,0,0,0,0,0,0,0,0,2
+eo2603,Soft drinks including milk,Milk based drinks,,,ml,39,39,49,42,22,18,27,24,25,19,35,27
+eo260301,Soft drinks including milk,Milk based drinks,,Milk as a drink,ml,6,5,5,7,5,3,4,4,6,1,8,3
+eo260302,Soft drinks including milk,Milk based drinks,,Milk on cereal,ml,0,0,1,1,1,1,0,1,0,0,0,0
+eo260303,Soft drinks including milk,Milk based drinks,,Milkshake and flavoured milk,ml,8,6,7,11,6,6,8,4,6,6,8,8
+eo260304,Soft drinks including milk,Milk based drinks,,Free school milk,ml,25,28,36,22,11,8,14,15,13,12,19,15
+eo270,Alcoholic drinks, ,,,ml,979,787,689,531,774,704,544,504,484,427,359,306
+eo2701,Alcoholic drinks,Spirits,,,ml,15,20,17,14,18,20,22,8,14,23,7,10
+eo270101,Alcoholic drinks,Spirits,,Spirits,ml,2,1,2,0,1,2,2,0,2,1,0,2
+eo270102,Alcoholic drinks,Spirits,,Liqueurs,ml,0,0,0,0,0,0,1,0,0,0,0,0
+eo270103,Alcoholic drinks,Spirits,,Cocktails,ml,0,0,0,1,0,1,1,0,1,2,1,1
+eo270104,Alcoholic drinks,Spirits,,"Spirits or liqueurs with mixer e.g. gin & tonic, Bacardi & coke",ml,13,18,14,12,17,17,20,8,11,20,5,7
+eo2702,Alcoholic drinks,Wines and ciders,,,ml,123,102,56,56,95,97,76,39,57,78,56,42
+eo270201,Alcoholic drinks,Wines and ciders,,Wine (not sparkling) including unspecified 'wine',ml,15,18,18,14,19,20,10,18,18,21,21,16
+eo270202,Alcoholic drinks,Wines and ciders,,Sparkling wines (e.g. Champagne) and wine with mixer (e.g. Bucks Fizz),ml,1,0,1,1,2,1,1,0,1,0,2,1
+eo270203,Alcoholic drinks,Wines and ciders,,"Fortified wine e.g. sherry, port, vermouth",ml,1,0,0,0,0,0,0,0,0,0,0,0
+eo270204,Alcoholic drinks,Wines and ciders,,Cider or perry - half pint or bottle,ml,8,6,4,5,13,5,5,1,1,1,2,4
+eo270205,Alcoholic drinks,Wines and ciders,,Cider or perry - pint or can or size not specified,ml,59,54,17,16,37,48,50,17,31,44,31,16
+eo270206,Alcoholic drinks,Wines and ciders,,"Alcoholic soft drinks (alcopops), and ready-mixed bottled drinks",ml,38,23,16,19,22,23,9,3,6,12,1,5
+eo2703,Alcoholic drinks,Beer and lager,,,ml,832,648,598,440,645,541,397,414,385,295,247,200
+eo270301,Alcoholic drinks,Beer and lager,,Bitter - half pint or bottle,ml,9,7,5,4,8,4,3,4,4,7,4,13
+eo270302,Alcoholic drinks,Beer and lager,,Bitter - pint or can or size not specified,ml,258,213,152,127,98,99,90,142,94,104,91,62
+eo270303,Alcoholic drinks,Beer and lager,,Lager or other beers including unspecified 'beer' - half pint or bottle,ml,65,78,39,25,37,42,12,30,21,20,11,12
+eo270304,Alcoholic drinks,Beer and lager,,Lager or other beers including unspecified 'beer' - pint or can or size not specified,ml,500,349,402,285,503,395,293,239,266,164,141,113
+eo270401,Alcoholic drinks,"Round of drinks, alcohol not otherwise specified",,,ml,9,17,19,20,17,45,48,44,29,31,49,54
+eo280,Confectionery, ,,,g,26,23,23,21,15,16,12,13,12,8,10,8
+eo280101,Confectionery,"Solid, unfilled chocolate bars and sweets and unspecified 'chocolate'",,,g,6,5,7,7,4,5,4,4,4,4,4,3
+eo280102,Confectionery,"Filled chocolate-coated bars and sweets e.g. Mars, Snickers, Minstrels",,,g,8,8,8,5,6,7,4,5,4,2,3,3
+eo280103,Confectionery,Single chocolate (after dinner),,,g,0,0,0,0,0,0,0,0,0,0,0,0
+eo280104,Confectionery,Chewing gum and bubble gum,,,g,1,1,1,1,1,1,0,0,0,0,0,0
+eo280105,Confectionery,"Mints e.g. Polo, Extra Strong",,,g,1,1,1,1,1,0,0,1,1,0,0,0
+eo280106,Confectionery,"Boiled sweets, jellies and unspecified 'sweets' e.g. fruit gums",,,g,4,4,3,4,2,2,2,2,2,1,2,2
+eo280107,Confectionery,"Uncoated toffee or fudge, uncoated e.g. Toffos, chocolate eclairs, caramels",,,g,0,0,0,0,0,0,0,0,0,0,0,0
+eo280108,Confectionery,"Pick 'n' mix, nougat, liquorice and other sweets",,,g,5,3,3,3,1,1,0,1,1,0,1,0
+eo290,"Ice cream, desserts and cakes", ,,,g,28,28,24,20,23,26,20,22,22,20,21,22
+eo2901,"Ice cream, desserts and cakes",Ice cream,,,g,8,7,8,5,5,7,6,6,7,4,6,6
+eo290101,"Ice cream, desserts and cakes",Ice cream,,"Ice cream in a cone, cornet or wafer and ice cream desserts",g,6,5,6,4,3,5,4,4,5,3,4,4
+eo290103,"Ice cream, desserts and cakes",Ice cream,,Ice cream scoop or tub including ice cream served with dessert,g,1,1,1,1,1,1,1,1,1,0,2,1
+eo290104,"Ice cream, desserts and cakes",Ice cream,,Iced lollies and sorbets,g,1,1,1,1,1,1,1,0,1,0,0,0
+eo2902,"Ice cream, desserts and cakes",Cakes and desserts,,,g,17,20,14,13,16,17,12,14,13,14,12,14
+eo290201,"Ice cream, desserts and cakes",Cakes and desserts,,Doughnut,g,2,6,1,1,2,2,1,3,2,2,1,2
+eo290202,"Ice cream, desserts and cakes",Cakes and desserts,,"Cream pastries e.g. chocolate eclairs, profiteroles",g,0,1,1,0,1,1,1,1,1,1,0,1
+eo290203,"Ice cream, desserts and cakes",Cakes and desserts,,Cream sponge or gateau (not chocolate) e.g. Victoria sandwich,g,0,0,0,0,0,0,0,0,0,0,0,0
+eo290204,"Ice cream, desserts and cakes",Cakes and desserts,,Rich chocolate cake or chocolate gateau e.g. Death by Chocolate,g,0,0,1,1,1,0,1,1,1,1,1,0
+eo290205,"Ice cream, desserts and cakes",Cakes and desserts,,Fruit and other pies or pastries,g,3,2,3,2,2,3,2,2,3,2,3,2
+eo290206,"Ice cream, desserts and cakes",Cakes and desserts,,Fruit cake,g,1,1,0,1,1,1,0,1,0,0,0,0
+eo290207,"Ice cream, desserts and cakes",Cakes and desserts,,Other sponge cakes or desserts (not cream cakes),g,4,5,4,4,3,4,4,4,3,2,3,2
+eo290208,"Ice cream, desserts and cakes",Cakes and desserts,,Custard desserts or sweet soufflé,g,1,1,0,1,0,1,1,1,0,0,0,1
+eo290209,"Ice cream, desserts and cakes",Cakes and desserts,,Meringue desserts including pavlova,g,0,0,0,0,0,0,0,0,0,0,0,0
+eo290210,"Ice cream, desserts and cakes",Cakes and desserts,,Cheesecake,g,1,0,1,0,0,1,1,1,0,0,0,0
+eo290211,"Ice cream, desserts and cakes",Cakes and desserts,,"Fool, trifle and mousse desserts",g,0,1,1,1,2,1,0,0,0,3,0,1
+eo290212,"Ice cream, desserts and cakes",Cakes and desserts,,Jelly,g,0,0,0,0,0,0,0,0,0,1,0,0
+eo290213,"Ice cream, desserts and cakes",Cakes and desserts,,"Milk and rice puddings including tapioca, semolina",g,1,1,0,0,0,0,0,0,1,0,0,0
+eo290214,"Ice cream, desserts and cakes",Cakes and desserts,,"Other cakes and desserts, unspecified 'cake' or 'dessert'",g,1,1,2,2,4,3,2,1,1,2,3,3
+eo2903,"Ice cream, desserts and cakes",Waffles and pancakes,,,g,0,0,0,1,0,1,0,0,1,0,1,0
+eo290401,"Ice cream, desserts and cakes","Teacakes, scones, currant buns, iced buns",,,g,3,1,1,1,2,1,2,2,2,2,1,2
+eo300,Biscuits and chocolate, ,,,g,3,3,3,2,2,3,3,2,3,2,2,2
+eo300101,Biscuits and chocolate,Fully-coated chocolate biscuits or wafers,,,g,2,1,1,1,1,1,1,1,1,0,1,0
+eo300102,Biscuits and chocolate,Sweet biscuits including half-coated chocolate biscuits,,,g,1,1,1,1,0,1,1,0,1,1,1,1
+eo300103,Biscuits and chocolate,Cereal bars and cereal based cakes,,,g,0,1,1,1,1,2,1,1,1,1,1,1
+eo300104,Biscuits and chocolate,Savoury biscuits,,,g,0,0,0,0,0,0,0,0,0,0,0,0
+eo310,"Crisps, nuts and snacks", ,,,g,11,12,12,9,9,10,8,6,7,6,7,5
+eo3101,"Crisps, nuts and snacks",Nuts and crisps,,,g,10,11,11,8,9,10,8,5,7,4,6,4
+eo310101,"Crisps, nuts and snacks",Nuts and crisps,,"Nuts, nut products and seeds",g,0,0,0,0,0,1,0,0,0,0,0,0
+eo310102,"Crisps, nuts and snacks",Nuts and crisps,,"Potato crisps or snacks including unspecified 'crisps', prawn crackers",g,10,10,11,8,8,9,7,5,6,4,6,4
+eo310103,"Crisps, nuts and snacks",Nuts and crisps,,"Cornsnacks, based on maize",g,0,0,0,1,0,1,0,0,0,0,0,0
+eo310104,"Crisps, nuts and snacks",Nuts and crisps,,Wheat based savoury snack,g,0,0,0,0,0,0,0,0,0,0,0,0
+eo310201,"Crisps, nuts and snacks",Popcorn,,,g,1,1,1,1,0,1,1,1,0,1,1,0
+eo310301,"Crisps, nuts and snacks",Other savoury snacks (including hors d'oeuvres),,,g,0,0,0,0,0,0,0,0,0,0,0,0

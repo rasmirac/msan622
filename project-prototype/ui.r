@@ -55,6 +55,13 @@ shinyUI(
                                      "Sweets and Fats", 
                                      "Other")
                        )
+      ), 
+      conditionalPanel(condition = "input.plotType == 'Stacked'",
+                       checkboxInput(
+                         "facet", 
+                         "Break up by food group", 
+                         FALSE
+                       )
       )
       ),
     mainPanel(
