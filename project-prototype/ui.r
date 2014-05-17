@@ -54,13 +54,18 @@ shinyUI(
                                      "Meat, Fish, and Eggs",  
                                      "Sweets and Fats", 
                                      "Other")
+                       ), 
+                       checkboxInput(
+                         "facet", 
+                         "Expand Food Group: ", 
+                         FALSE
                        )
       ), 
       conditionalPanel(condition = "input.plotType == 'Stacked'",
-                       checkboxInput(
-                         "facet", 
-                         "Break up by food group", 
-                         FALSE
+                       radioButtons(
+                         "country", 
+                         "Countries:",
+                         c("All UK", "England", "Wales", 'Scotland', 'Northern Ireland')
                        )
       )
       ),
@@ -81,21 +86,10 @@ shinyUI(
         tabPanel("Stacked", 
                  plotOutput("areaPlot", 
                             height = 700, 
-                            width =1200)),
+                            width =1000)),
         id="plotType"
       )
     )
   )
 )
 
-
-#selectInput(
-#  inputId = "regions", 
-#  label = "Show by Region: ",
-#  choices = c('All',
-#              "England",
-#              "Northern Ireland", 
-#              "Wales", 
-#              "Scotland"), 
-#  selected = NULL
-#), 
