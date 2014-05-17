@@ -96,7 +96,7 @@ I like this interactivity because, again, it allows the user to compare the over
 
 ## Prototype Feedback
 
-For my prototype presentation, I only presented the multi-line plot without any interaction. Some of the feedback I got included: increase the thickness of the line, convert the data to a common unit, show change over time instead of the raw data, and to normalize the data. I didn't convert to a common unit because milli-liters and grams are basically the same and it would have been too difficult to do it by food type. I also didn't increase the thickness of the thin, because aesthetically I found the line thickness okay already. I liked showing the raw data because it makes the plots more accessible to the public, which is the audience I'd expect to be interested in these visualizations. 
+For my prototype presentation, I only presented the multi-line plot without any interaction. Some of the feedback I got included: increase the thickness of the line, convert the data to a common unit, show change over time instead of the raw data, and to normalize the data. I didn't convert to a common unit because milli-liters and grams are basically the same and it would have been too difficult to do it by food type. I also didn't increase the thickness of the thin, because aesthetically I found the line thickness to be okay already. I liked showing the raw data because it makes the plots more accessible to the public, which is the audience I'd expect to be interested in these visualizations. 
 
 ## Challenges
 
