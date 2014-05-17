@@ -90,7 +90,7 @@ I think the first interactivity is almost neccessary for this plot. It's nice to
 
 This plot allows the user to: 
 
-- Choose the country to see the data for
+- choose the country shown
 
 I like this interactivity because, again, it allows the user to compare the overall trends in the UK to country wide trends. Again, we see that the countries behave very differently. This is more useful than just seeing one version of the plot. 
 
