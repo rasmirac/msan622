@@ -7,4 +7,4 @@ MSAN 622 Data Visualization
 
 ## About Me ##
 
-Full time grad student, feline lover, food fanatic, feminist, and filmophile. 
+Selected homeworks from my data visualization course. 
